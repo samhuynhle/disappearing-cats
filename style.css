@@ -1,0 +1,9 @@
+.container{
+    width: 800px;
+    text-align: center;
+}
+.adventure-cat{
+    width: 20%;
+    margin: 0 2%;
+    display: inline-block;
+}

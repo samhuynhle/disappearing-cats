@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Click to Dissapear!</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <img src="adventure-cat.png" class="adventure-cat">
+            <img src="adventure-cat.png" class="adventure-cat">
+            <img src="adventure-cat.png" class="adventure-cat">
+            <img src="adventure-cat.png" class="adventure-cat">
+            <img src="adventure-cat.png" class="adventure-cat">
+            <img src="adventure-cat.png" class="adventure-cat">
+            <img src="adventure-cat.png" class="adventure-cat">
+            <img src="adventure-cat.png" class="adventure-cat">
+            <button id="click-me">Restore</button>
+        </div>
+
+        <script>
+            $('.adventure-cat').click(function(){
+                $(this).hide();
+            })
+            ;
+            $('#click-me').click(function(){
+                $('.adventure-cat').show();
+            })
+            ;
+        </script>
+    </body>
+</html>
